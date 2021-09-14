@@ -3,12 +3,13 @@ styleguide: sourcelevel/linters
 engines:
   reek:
     enabled: true
+    channel: latest
   fixme:
     enabled: false
   rubocop:
     enabled: false
   brakeman:
-    enabled: true
+    enabled: false
   duplication:
     enabled: false
   remark-lint:
