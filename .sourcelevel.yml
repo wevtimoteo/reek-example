@@ -8,7 +8,7 @@ engines:
   rubocop:
     enabled: false
   brakeman:
-    enabled: true
+    enabled: false
   duplication:
     enabled: false
   remark-lint:
