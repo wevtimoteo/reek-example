@@ -3,6 +3,7 @@ styleguide: sourcelevel/linters
 engines:
   reek:
     enabled: true
+    channel: latest
   fixme:
     enabled: false
   rubocop:
