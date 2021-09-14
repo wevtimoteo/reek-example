@@ -1,0 +1,13 @@
+---
+detectors:
+  NilCheck:
+    enabled: false
+  UncommunicativeModuleName:
+    accept:
+      - "/^V1/"
+      - "/^V2/"
+      - "/^V3/"
+  IrresponsibleModule:
+    enabled: false
+  DuplicateMethodCall:
+    max_calls: 2

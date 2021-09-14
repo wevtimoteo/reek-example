@@ -1,0 +1,17 @@
+---
+styleguide: sourcelevel/linters
+engines:
+  reek:
+    enabled: true
+  fixme:
+    enabled: false
+  rubocop:
+    enabled: false
+  brakeman:
+    enabled: true
+  duplication:
+    enabled: false
+  remark-lint:
+    enabled: false
+  bundler-audit:
+    enabled: false
